@@ -64,6 +64,8 @@ queuenum = input("> ")
 
 subprocess.run(["iptables", "-I", "FORWARD", "-j", "NFQUEUE", "--queue-num", queuenum])
 
+print('Spoofing the file...')
+
 #Main
 queue = netfilterqueue.NetfilterQueue()
 queue.bind(int(queuenum), process_packet)
