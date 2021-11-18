@@ -2,7 +2,7 @@
 A file interceptor is exactly what it sounds like. It replaces files downloaded on target system with a specified file.
 
 ```
-╭─stagefright@Aspire ~/Projects/FileInterceptor_Py ‹main*› 
+╭─compromyse@Aspire ~/Projects/FileInterceptor_Py ‹main*› 
 ╰─$ sudo ~/.pyenv/versions/3.6.0/bin/python3.6 FileInterceptor.py 
 
 ███████╗██╗██╗░░░░░███████╗██╗███╗░░██╗████████╗███████╗██████╗░░█████╗░███████╗██████╗░████████╗░█████╗░██████╗░
@@ -46,7 +46,7 @@ Flushing Iptables rules and exiting...
 
 > Clone git repository
 ```
-git clone https://github.com/Stagefright071/FileInterceptor_Py
+git clone https://github.com/compromyse/FileInterceptor_Py
 ```
 
 > Install script requirements
@@ -57,7 +57,7 @@ sudo python3.6 -m pip install -r requirements.txt
 
 > Arp spoof
 
-Go to https://github.com/stagefright071/ArpSpoof_Py and use it to get man in the middle before running the script
+Go to https://github.com/compromyse/ArpSpoof_Py and use it to get man in the middle before running the script
 
 > Run the script as **root**
 ```
